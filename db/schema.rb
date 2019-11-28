@@ -10,14 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_27_215950) do
+ActiveRecord::Schema.define(version: 2019_11_28_094837) do
 
   create_table "exports", force: :cascade do |t|
     t.string "domain"
     t.string "api_key"
     t.string "email"
+    t.string "status"
+    t.bigint "total_count"
+    t.bigint "fetch_count"
+    t.bigint "start_time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-
 end

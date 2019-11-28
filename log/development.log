@@ -791,3 +791,2271 @@ puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
 puma (4.3.0) lib/puma/server.rb:470:in `process_client'
 puma (4.3.0) lib/puma/server.rb:328:in `block in run'
 puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:20:15 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:21:35 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:22:55 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:23:16 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:24:23 +0530
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:25:11 +0530
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:26:19 +0530
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:26:29 +0530
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:27:04 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:68:in `export_params'
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:30:27 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:32:52 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:33:11 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ export "=>"> { domain => comiccon, api_key => sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR, email => mohan.aakash97@gmail.com } }"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 532)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:34:47 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ export "=>"> { domain => comiccon, api_key => sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR, email => mohan.aakash97@gmail.com } }"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 458)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:34:56 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ export "=>"> { domain => comiccon, api_key => sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR, email => mohan.aakash97@gmail.com } }"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 506)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:35:02 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ export "=>"> { domain => comiccon, api_key => sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR, email => mohan.aakash97@gmail.com } }"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 418)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:37:56 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ export "=>"> { domain => comiccon, api_key => sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR, email => mohan.aakash97@gmail.com } }"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ export [0m
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms | Allocations: 1081)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:38:55 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ 'export'"=>">{ 'domain'=>'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'} }"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'export'[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:39:26 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ \n'export'"=>">{ \n\t'domain'=>'comiccon', \n\t'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR',\n\t'email'=>'mohan.aakash97@gmail.com'\n\t} \n}"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 
+'export'[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:40:16 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR',\t'email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1484)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f9698a9fd68>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:40:41 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1480)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f969d88a4b0>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:40:51 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1481)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f969799c020>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:41:06 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1481)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f9698c069b8>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:42:37 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1481)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f969967a278>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:42:52 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>"{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'\t} "}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1466)
+
+
+  
+NoMethodError (undefined method `permit' for #<String:0x00007f9696f62208>):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:43:33 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{\"export\""=>">{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'} }\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{"export"[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:43:56 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{'export'"=>">{ 'domain'=>'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'} }\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{'export'[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:44:07 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 591)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:44:31 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.7ms | Allocations: 11039)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007f969a930778>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:45:20 +0530
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3258)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007f9696b90e68>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:45:41 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms | Allocations: 7584)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007f969dcfa928>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:45:59 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms | Allocations: 9114)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fc9871c9730>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:46:18 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3439)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fc98f06a3f0>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:46:27 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3264)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fc988d76d98>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:46:59 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.5ms | Allocations: 7638)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fc9865b5548>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:50:39 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3254)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fc988b50bb8>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:50:55 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:52:22 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_token'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 500 Internal Server Error in 9806ms (ActiveRecord: 0.4ms | Allocations: 38767)
+
+
+  
+NoMethodError (undefined method `api_token' for #<Export:0x00007fd2efb49d20>
+Did you mean?  api_key):
+  
+app/controllers/export_controller.rb:19:in `create'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:54:14 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"{ 'domain'"=>">'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{ 'domain'[0m
+[31mUnpermitted parameter: :{ 'domain'[0m
+Completed 422 Unprocessable Entity in 13ms (Views: 0.9ms | ActiveRecord: 0.7ms | Allocations: 6215)
+
+
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:55:42 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"{'export'"=>">{'domain'=>'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}}\n"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{'export'[0m
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 978)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:55:56 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{'export'"=>">{'domain'=>'comiccon', 'api_key'=>'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email'=>'mohan.aakash97@gmail.com'}}"}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{'export'[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:56:23 +0530
+Processing by ExportController#create as */*
+  Parameters: {"{'export':'{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}'}"=>nil}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :{'export':'{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}'}[0m
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 592)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: export):
+  
+app/controllers/export_controller.rb:69:in `export_params'
+app/controllers/export_controller.rb:17:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:57:36 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{'export':'{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}'}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{'export':'{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}'}'):
+  
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:115:in `rescue in parse_formatted_parameters'
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch_header'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:279:in `_wrapper_enabled?'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{'export':'{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}'}
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:58:29 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{'export':{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{'export':{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}}'):
+  
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:115:in `rescue in parse_formatted_parameters'
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch_header'
+actionpack (6.0.1) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (6.0.1) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:279:in `_wrapper_enabled?'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{'export':{'domain':'comiccon', 'api_key':'sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR','email':'mohan.aakash97@gmail.com'}}
+Started POST "/export" for 127.0.0.1 at 2019-11-28 12:59:53 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (3.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:29:53.596522"], ["updated_at", "2019-11-28 07:29:53.596522"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 17ms (Views: 1.1ms | ActiveRecord: 7.6ms | Allocations: 7360)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:00:10 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:00:31 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:01:15 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:03:31 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+TypeError (wrong argument type Class (expected Module)):
+  
+app/controllers/export_controller.rb:5:in `include'
+app/controllers/export_controller.rb:5:in `<class:ExportController>'
+app/controllers/export_controller.rb:3:in `<main>'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:03:43 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:06:16 +0530
+  [1m[35m (13.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+TypeError (wrong argument type Class (expected Module)):
+  
+app/controllers/export_controller.rb:5:in `include'
+app/controllers/export_controller.rb:5:in `<class:ExportController>'
+app/controllers/export_controller.rb:3:in `<main>'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:06:25 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:06:45 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:55:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:07:04 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `parameters' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:07:33 +0530
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/export_controller.rb:56:in `initialize'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:08:15 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1089)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:08:32 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1115)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:58:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:08:48 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 675)
+
+
+  
+TypeError (no implicit conversion of ActionController::Parameters into String):
+  
+app/controllers/export_controller.rb:57:in `+'
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:09:01 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1116)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:58:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:09:43 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:10:21 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 622)
+
+
+  
+TypeError (no implicit conversion of ActionController::Parameters into String):
+  
+app/controllers/export_controller.rb:57:in `+'
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:10:39 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :export[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 668)
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:11:18 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 619)
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:11:25 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1070)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:58:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:12:11 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1024)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:58:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:12:32 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 672)
+
+
+  
+ActionController::UnfilteredParameters (unable to convert unpermitted parameters to hash):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:13:10 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (2.2ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:43:10.945629"], ["updated_at", "2019-11-28 07:43:10.945629"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 53ms (Views: 0.7ms | ActiveRecord: 3.6ms | Allocations: 11491)
+
+
+  
+NoMethodError (undefined method `ERROR' for #<ActiveSupport::Logger:0x00007ff741be0678>
+Did you mean?  error?):
+  
+lib/export_client/client.rb:56:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:14:44 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:44:44.040233"], ["updated_at", "2019-11-28 07:44:44.040233"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 23ms (Views: 0.4ms | ActiveRecord: 1.7ms | Allocations: 5306)
+
+
+  
+NoMethodError (undefined method `ERROR' for #<ActiveSupport::Logger:0x00007ff747d2acf8>
+Did you mean?  error?):
+  
+lib/export_client/client.rb:56:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:15:10 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:45:10.733236"], ["updated_at", "2019-11-28 07:45:10.733236"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 31ms (Views: 0.8ms | ActiveRecord: 1.2ms | Allocations: 5310)
+
+
+  
+NoMethodError (undefined method `ERROR' for #<ActiveSupport::Logger:0x00007ff740b68f20>
+Did you mean?  error?):
+  
+lib/export_client/client.rb:56:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:15:34 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:45:34.049971"], ["updated_at", "2019-11-28 07:45:34.049971"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 21ms (Views: 0.9ms | ActiveRecord: 1.2ms | Allocations: 5300)
+
+
+  
+NoMethodError (undefined method `ERROR' for #<ActiveSupport::Logger:0x00007ff74018e4c8>
+Did you mean?  error?):
+  
+lib/export_client/client.rb:56:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:16:12 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:19:42 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 1166)
+
+
+  
+NoMethodError (undefined method `to_h' for :start_time:Symbol
+Did you mean?  to_s):
+  
+app/controllers/export_controller.rb:62:in `validate_request'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:21:03 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1046)
+
+
+  
+NoMethodError (undefined method `to_h' for :start_time:Symbol
+Did you mean?  to_s):
+  
+app/controllers/export_controller.rb:62:in `validate_request'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:23:26 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1119)
+
+
+  
+NoMethodError (undefined method `permit_all_parameters' for #<ActionController::Parameters:0x00007fa70f5109b0>):
+  
+app/controllers/export_controller.rb:62:in `validate_request'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:25:01 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms | Allocations: 95678)
+
+
+  
+NameError (undefined local variable or method `start_time' for #<ExportController:0x00007fa712c694c0>):
+  
+app/controllers/export_controller.rb:62:in `validate_request'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:25:18 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1028)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:25:45 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 07:55:45.693313"], ["updated_at", "2019-11-28 07:55:45.693313"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 33ms (Views: 0.7ms | ActiveRecord: 2.0ms | Allocations: 10997)
+
+
+  
+NoMethodError (undefined method `body' for #<String:0x00007fa710c249f8>):
+  
+lib/export_client/client.rb:57:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:25:59 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.8ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 08:00:07.701620"], ["updated_at", "2019-11-28 08:00:07.701620"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 248220ms (Views: 0.7ms | ActiveRecord: 3.2ms | Allocations: 41322)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:30:22 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 08:01:46.720724"], ["updated_at", "2019-11-28 08:01:46.720724"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 83758ms (Views: 0.6ms | ActiveRecord: 2.8ms | Allocations: 12272)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:31:49 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1074)
+
+
+  
+NoMethodError (undefined method `last_fetch_time' for nil:NilClass):
+  
+app/controllers/export_controller.rb:57:in `initialize_client'
+app/controllers/export_controller.rb:16:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:32:40 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 08:03:41.498768"], ["updated_at", "2019-11-28 08:03:41.498768"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 61427ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 11310)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:33:48 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.3ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 08:03:52.785214"], ["updated_at", "2019-11-28 08:03:52.785214"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 4253ms (Views: 0.3ms | ActiveRecord: 1.5ms | Allocations: 6049)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:33:59 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 08:03:59.925875"], ["updated_at", "2019-11-28 08:03:59.925875"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 26ms (Views: 0.6ms | ActiveRecord: 1.7ms | Allocations: 9764)
+
+
+  
+NoMethodError (undefined method `body' for #<String:0x00007fa712a9f2c0>):
+  
+lib/export_client/client.rb:57:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:34:52 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1600)
+
+
+  
+NoMethodError (undefined method `env' for nil:NilClass
+Did you mean?  end):
+  
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:24:in `rescue in process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:21:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:36:26 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1665)
+
+
+  
+NoMethodError (undefined method `env' for nil:NilClass
+Did you mean?  end):
+  
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:24:in `rescue in process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:21:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:37:08 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 35333ms (ActiveRecord: 0.0ms | Allocations: 91503)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fd0021d4140>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:38:37 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 34093ms (ActiveRecord: 0.0ms | Allocations: 11729)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffc9d98c8>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:39:19 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 25326ms (ActiveRecord: 0.0ms | Allocations: 8500)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffd111488>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:39:49 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 269942ms (ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffc9e06c8>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:44:38 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 46987ms (ActiveRecord: 0.0ms | Allocations: 18096)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffcc41f70>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:46:39 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3878ms (ActiveRecord: 0.0ms | Allocations: 5505)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffca60fa8>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:46:57 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 9504ms (ActiveRecord: 0.0ms | Allocations: 5505)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fd0008f8860>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:47:17 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3170ms (ActiveRecord: 0.0ms | Allocations: 5505)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffca18e38>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:47:47 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 5454)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fd00081b230>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 13:48:17 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3959ms (ActiveRecord: 0.0ms | Allocations: 5507)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffca29738>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:31:55 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 4323ms (ActiveRecord: 0.0ms | Allocations: 5556)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fd001950280>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:33:35 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 49577ms (ActiveRecord: 0.0ms | Allocations: 6823)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fcffd150250>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:34:45 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 263056ms (ActiveRecord: 0.0ms | Allocations: 7781)
+
+
+  
+NameError (undefined local variable or method `api_key' for #<ExportClient::Client:0x00007fd001a650a8>
+Did you mean?  api_client):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:39:56 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 778)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1)):
+  
+lib/export_client/client.rb:6:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:41:38 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 780)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1)):
+  
+lib/export_client/client.rb:6:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:43:58 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 649)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1)):
+  
+lib/export_client/client.rb:6:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:44:19 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+LoadError (cannot load such file -- faraday):
+  
+lib/export_client/client.rb:1:in `<main>'
+app/controllers/export_controller.rb:1:in `<main>'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:45:24 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1122)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:46:01 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1078)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:46:12 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 994)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:46:35 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 21275ms (ActiveRecord: 0.0ms | Allocations: 34989)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/export_client/client.rb:11:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:47:28 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:48:10 +0530
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:49:15 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 14886ms (ActiveRecord: 0.0ms | Allocations: 139445)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+lib/export_client/client.rb:10:in `initialize'
+app/controllers/export_controller.rb:57:in `new'
+app/controllers/export_controller.rb:57:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:49:54 +0530
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:50:42 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:53:26 +0530
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 10340ms (ActiveRecord: 0.0ms | Allocations: 36028)
+
+
+  
+NoMethodError (undefined method `url=' for #<Faraday::Connection:0x00007f9f713c7ef0>):
+  
+lib/export_client/client.rb:22:in `block in initialize'
+lib/export_client/client.rb:21:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:55:00 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 3547ms (ActiveRecord: 0.0ms | Allocations: 8991)
+
+
+  
+NoMethodError (undefined method `url=' for #<Faraday::Connection:0x00007f9f72bef4d8>):
+  
+lib/export_client/client.rb:22:in `block in initialize'
+lib/export_client/client.rb:21:in `initialize'
+app/controllers/export_controller.rb:56:in `new'
+app/controllers/export_controller.rb:56:in `initialize_client'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:55:26 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:25:26.196497"], ["updated_at", "2019-11-28 09:25:26.196497"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 507ms (Views: 0.7ms | ActiveRecord: 2.1ms | Allocations: 13549)
+
+
+  
+NameError (uninitialized constant ExportClient::Client::Error
+Did you mean?  IOError
+               Errno):
+  
+lib/export_client/client.rb:62:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:57:06 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (1.1ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:27:06.740685"], ["updated_at", "2019-11-28 09:27:06.740685"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 394ms (Views: 1.3ms | ActiveRecord: 11.1ms | Allocations: 8350)
+
+
+  
+NameError (uninitialized constant ExportClient::Client::Error
+Did you mean?  IOError
+               Errno):
+  
+lib/export_client/client.rb:62:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:57:23 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:27:23.201591"], ["updated_at", "2019-11-28 09:27:23.201591"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 469ms (Views: 0.7ms | ActiveRecord: 2.6ms | Allocations: 12976)
+
+
+  
+NameError (uninitialized constant ExportClient::Client::Error
+Did you mean?  IOError
+               Errno):
+  
+lib/export_client/client.rb:62:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:58:27 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:28:27.362175"], ["updated_at", "2019-11-28 09:28:27.362175"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 411ms (Views: 0.7ms | ActiveRecord: 2.2ms | Allocations: 12518)
+
+
+  
+NoMethodError (undefined method `body' for "undefined method `each' for nil:NilClass":String):
+  
+lib/export_client/client.rb:64:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:59:09 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.6ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:29:09.568099"], ["updated_at", "2019-11-28 09:29:09.568099"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 361ms (Views: 0.6ms | ActiveRecord: 1.3ms | Allocations: 7721)
+
+
+  
+NoMethodError (undefined method `body' for "undefined method `each' for nil:NilClass":String):
+  
+lib/export_client/client.rb:64:in `rescue in fetch_tickets'
+lib/export_client/client.rb:39:in `fetch_tickets'
+lib/export_client/client.rb:35:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 14:59:33 +0530
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:29:33.563725"], ["updated_at", "2019-11-28 09:29:33.563725"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 67227ms (Views: 0.8ms | ActiveRecord: 2.7ms | Allocations: 47008)
+
+
+  
+NoMethodError (undefined method `update_attribute' for nil:NilClass):
+  
+lib/export_client/client.rb:85:in `close_all_files'
+lib/export_client/client.rb:36:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:04:46 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.4ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:34:46.361204"], ["updated_at", "2019-11-28 09:34:46.361204"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+Completed 500 Internal Server Error in 413ms (Views: 0.7ms | ActiveRecord: 1.7ms | Allocations: 11543)
+
+
+  
+NoMethodError (undefined method `update_attribute' for nil:NilClass):
+  
+lib/export_client/client.rb:95:in `close_all_files'
+lib/export_client/client.rb:36:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:06:51 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:36:51.843819"], ["updated_at", "2019-11-28 09:36:51.843819"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Load (0.1ms)[0m  [1m[34mSELECT "exports".* FROM "exports" WHERE "exports"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ lib/export_client/client.rb:35:in `fetch'
+Completed 500 Internal Server Error in 449ms (Views: 0.8ms | ActiveRecord: 2.2ms | Allocations: 12170)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+lib/export_client/client.rb:97:in `close_all_files'
+lib/export_client/client.rb:37:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:08:24 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.8ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:38:24.452622"], ["updated_at", "2019-11-28 09:38:24.452622"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Load (0.2ms)[0m  [1m[34mSELECT "exports".* FROM "exports" WHERE "exports"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ lib/export_client/client.rb:35:in `fetch'
+Completed 500 Internal Server Error in 383ms (Views: 0.9ms | ActiveRecord: 3.0ms | Allocations: 13678)
+
+
+  
+NoMethodError (undefined method `status=' for #<Export:0x00007fdb7093c918>):
+  
+lib/export_client/client.rb:97:in `close_all_files'
+lib/export_client/client.rb:37:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:08:47 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.6ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:38:47.260466"], ["updated_at", "2019-11-28 09:38:47.260466"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Load (0.1ms)[0m  [1m[34mSELECT "exports".* FROM "exports" WHERE "exports"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ lib/export_client/client.rb:35:in `fetch'
+Completed 500 Internal Server Error in 404ms (Views: 0.7ms | ActiveRecord: 1.6ms | Allocations: 8494)
+
+
+  
+NoMethodError (undefined method `status=' for #<Export:0x00007fdb73236d78>):
+  
+lib/export_client/client.rb:97:in `close_all_files'
+lib/export_client/client.rb:37:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:08:59 +0530
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:38:59.732915"], ["updated_at", "2019-11-28 09:38:59.732915"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Load (0.1ms)[0m  [1m[34mSELECT "exports".* FROM "exports" WHERE "exports"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ lib/export_client/client.rb:35:in `fetch'
+Completed 500 Internal Server Error in 381ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 8129)
+
+
+  
+NoMethodError (undefined method `status=' for #<Export:0x00007fdb72171e98>):
+  
+lib/export_client/client.rb:97:in `close_all_files'
+lib/export_client/client.rb:37:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:09:12 +0530
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Create (0.5ms)[0m  [1m[32mINSERT INTO "exports" ("domain", "api_key", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["domain", "comiccon"], ["api_key", "sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR"], ["email", "mohan.aakash97@gmail.com"], ["created_at", "2019-11-28 09:39:12.852978"], ["updated_at", "2019-11-28 09:39:12.852978"]]
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/export_controller.rb:18:in `create'
+  [1m[36mExport Load (0.2ms)[0m  [1m[34mSELECT "exports".* FROM "exports" WHERE "exports"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ lib/export_client/client.rb:35:in `fetch'
+Completed 500 Internal Server Error in 42481ms (Views: 0.9ms | ActiveRecord: 2.6ms | Allocations: 55813)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `close_all_files'
+lib/export_client/client.rb:98:in `close_all_files'
+lib/export_client/client.rb:37:in `fetch'
+app/controllers/export_controller.rb:20:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:12:27 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.6ms | Allocations: 7872)
+
+
+  
+NoMethodError (undefined method `status' for #<Export:0x00007fc73823ec48>):
+  
+app/controllers/export_controller.rb:18:in `create'
+Started POST "/export" for 127.0.0.1 at 2019-11-28 15:15:17 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExportController#create as */*
+  Parameters: {"export"=>{"domain"=>"comiccon", "api_key"=>"sN6M35pT2lL7JTBaW5rRTCBA56bjWBOvlJpgEaoR", "email"=>"mohan.aakash97@gmail.com"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.6ms | Allocations: 5506)
+
+
+  
+ActiveModel::MissingAttributeError (can't write unknown attribute `status`):
+  
+app/controllers/export_controller.rb:52:in `set_default_params'
+app/controllers/export_controller.rb:18:in `create'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateStatuses (20191128094837)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "statuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "status" varchar, "total_count" bigint, "fetch_count" bigint, "start_time" bigint, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191128094837"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m

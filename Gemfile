@@ -27,11 +27,14 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-gem 'zendesk_api', '1.19.0', require: 'zendesk_api'
+gem 'faraday', '~> 0.15.4'
+gem 'faraday_middleware', '~> 0.13.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faraday', '~> 0.15.4'
+  gem 'faraday_middleware', '~> 0.13.1'
 end
 
 group :development do
@@ -41,7 +44,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'zendesk_api', '1.19.0', require: 'zendesk_api'
 end
 
 group :test do

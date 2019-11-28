@@ -75,15 +75,15 @@ GEM
     concurrent-ruby (1.1.5)
     crass (1.0.5)
     erubi (1.9.0)
-    faraday (0.17.1)
+    faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.13.1)
+      faraday (>= 0.7.4, < 1.0)
     ffi (1.11.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    hashie (3.6.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
-    inflection (1.0.0)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
     listen (3.1.5)
@@ -98,9 +98,6 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.2)
-    mime-types (3.3)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
     mimemagic (0.3.3)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
@@ -203,12 +200,6 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.2.1)
-    zendesk_api (1.19.0)
-      faraday (~> 0.9)
-      hashie (>= 3.5.2, < 4.0.0)
-      inflection
-      mime-types
-      multipart-post (~> 2.0)
 
 PLATFORMS
   ruby
@@ -217,6 +208,8 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  faraday (~> 0.15.4)
+  faraday_middleware (~> 0.13.1)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   puma (~> 4.1)
@@ -231,7 +224,6 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
-  zendesk_api (= 1.19.0)
 
 RUBY VERSION
    ruby 2.6.3p62
